@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Magdalena Duma CV</title>
+	
+	<meta name="description" content="Magdalena Duma CV" />
+	<meta name="keywords" content="Magdalena, Duma, CV, coding, HTML, CSS, hobby, pasja, portfolio" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Cinzel:400,900|Lato:400,900&amp;subset=latin-ext" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+
+	<script>
+    function changeBtn() {
+      var title = document.querySelector("#btnFirst");
+	  title.innerHTML = "<p><span>Steve Jobs.</span></p>"; 
+	  
+	  title.style.color = 'black';
+      title.style.backgroundColor = "yellow";
+      title.style.border = "5px dashed red";
+	  title.margin = 0;
+
+    }
+  	</script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		<div logo class="logo">Magdalena Duma</div>
+		<div class="nav">
+		<ol>
+			<li><a href="#topbar">HOME</a></li>
+			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ol>
+		</div>
+	</div>
+
+<div class="content">
+
+	<div id="topbar">
+		<blockquote>Technology is nothing.<br />
+			What's important is that you have a faith in people,<br />
+			that they're basically good and smart,<br />
+			and if you give them tools,<br />
+			they'll do wonderful things with them.</blockquote><br />
+
+			<button id="btnFirst" onclick="changeBtn();">Kto jest autorem tego tekstu?</button>
+	</div>
+
+	<div class="intro">
+		<div class="intro1"><a href="#portfolio">GET INSPIRE</a></div> 
+		<div class="intro2"><a href="#about">MORE ABOUT MY WORK</a></div>
+		<div class="intro3"><a href="#contact">STAY IN TOUGHT</a></div>
+	</div>
+
+	<div id="portfolio" clear: > <!--moje rysunki-->
+		<table>
+			<tr>
+				<td><img src="img/8.jpg" title="autoCad 3D"/></td>
+				<td><img src="img/9.jpg" title="autoCad 3D"/></td>
+			</tr>
+			<tr>
+				<td><img src="img/10.jpg" title="autoCad 3D"/></td>
+				<td><img src="img/11.jpg" title="autoCad 3D"/></td>
+			</tr>
+			<tr>
+				<td><img src="img/14.jpg" title="autoCad 3D"/></td>
+				<td><img src="img/15.jpg" title="autoCad 3D"/></td>
+			</tr>	
+		</table>
+	</div>
+
+	<div id="about"> <!--coś o mnie--> 
+		<h1>ABOUT</h1>
+		<p><!--<img src="img/8.jpg" title="autoCad 3D"/>-->Hey! Nazywam się <strong>Magdalena Duma</strong>.
+		Uwielbiam rzeczy <i>piękne</i> i <i>praktyczne</i>. Uwielbiam <i>kreować</i>. Uwielbiam <i>tworzyć</i>. 
+		Kodowanie to ucieczka przez codziennością w świat wirtualnej sztuki. Rozwiązywanie problemów natury tehnicznej jest 
+		wspaniałym sposobem na nawiazanie nowych znajomości oraz naukę języka angielskiego. Chciałabym swoje hobby zamienić w codzienność
+		z którą będę mieć kontak cały czas.</p>
+		<p>Swoją przygodę rozpoczęłam ze wspaniałym człowiekiem którym jest Mirosław Zelent, 
+		następnie przeszłam wszystkie kursy organizowane przez organizację W3C i firmę Mircosoft.
+		Częsta lektura książek kodystycznych oraz ciągłe doskonalnenie przez kreowanie swoich konspektów stało się dniem powszednim.</p>
+		<p>Jeśli poszukują państwo nie tylko <em>pracownika</em> lecz również <em>pasjonata</em> zapraszam do współpracy i proszę o kontakt.</p>
+		<span><i>Magda !!!</i></span>
+	</div>
+	
+	<div id="contact"><!--tel, mapa, social media--> 
+		<h1>CONTACT</h1>
+		<p>Magdalena Duma</p>
+		<p>tel. <strong>663 505 630</strong></p>
+		<p><strong><a href="mailto:maliszewska87@gmail.com">maliszewska87@gmail.com</a></strong></p>
+	</div>
+</div>	
+</article>	
+
+<div class="footer">
+	<span>proudly created by <strong>Magdalena Duma</strong>. &copy; All rights reserved.</span>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

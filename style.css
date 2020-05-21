@@ -1,0 +1,210 @@
+body{
+    background: url(2.jpg) no-repeat center center fixed; /*css3 bg cała strona DZIAŁĄ !!!*/
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    font-family: 'Lato', sans-serif;
+    margin: 0! important;
+    text-align: center;
+    color: white;
+}
+
+.header{
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10; /* najwyżej położony*/
+
+    margin-bottom: 0px;
+    padding: 10px;
+    min-height: 70px;
+    background-color: #251D0B;
+}
+
+.logo{
+    float: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    padding: 8px 30px 0 30px;
+}
+
+.nav{
+    float: right;
+    text-align: center;
+    display: inline-block;
+}
+
+.content{
+    display: block;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topbar{
+    display: block;
+    background-color: sienna;
+    opacity: 0.7;
+    z-index: -100; /* najniżej położony*/
+
+    margin-top: 90px;
+    padding: 70px;
+    font-size: 18px;
+}
+
+    p span{
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+
+    .intro{
+        width: 960px; 
+        text-align: center;
+        margin: 0 auto;
+    }
+        .intro1 a{ /* stylizacja łączy a tylko w class intro 1 2 i 3 */
+            float: left;
+            display: block;
+            width: 307px;
+            margin: 0;
+            padding: 30px 0 30px 0;
+            text-align: center;
+            background-color: #9A6F25;
+            text-decoration: none;
+            color: white;
+        }
+        .intro2 a{ /* stylizacja łączy a tylko w class intro 1 2 i 3 */
+            float: left;
+            display: block;
+            width: 306px;
+            margin: 0;
+            padding: 30px 0 30px 0;
+            text-align: center;
+            background-color: #251D0B;
+            text-decoration: none;
+            color: white;
+        }
+        .intro3 a{ /* stylizacja łączy a tylko w class intro 1 2 i 3 */
+            float: left;
+            display: block;
+            width: 307px;
+            margin: 0;
+            padding: 30px 0 30px 0;
+            text-align: center;
+            background-color: #6A4B18;
+            text-decoration: none;
+            color: white;
+        }
+
+    .portfolio{
+        clear: both;   
+        width: 920px; 
+        margin: 0 auto; 
+        text-align: center;
+    }
+    
+    table{
+        width: 920px; 
+        margin: 0 auto; 
+        text-align: center;
+        }
+    
+        td{
+          padding: 5px 5px 5px 5px;
+        }
+        
+        td > img{
+         max-width: 430px;  
+        }
+
+#about{ 
+    display: block;
+    background-color: goldenrod;
+ 
+    padding: 70px;
+    font-size: 15px;
+}
+
+    #about p{
+        text-align: justify;
+    }
+
+    p:first-letter{ /* pierwsza litera wielka str:288*/
+        font-size: 150%;
+    }
+
+#contact{
+    display: block;
+    background-color: darkgoldenrod;
+    opacity: 0.7;
+    z-index: -100; /* najniżej położony*/
+
+    padding: 60px;
+    font-size: 15px;
+}
+
+    h1{
+        outline: dashed 1px; 
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+.footer{
+    text-align: center;
+    display: block;
+    background-color: #251D0B;
+    margin: 0;
+    padding: 20px;
+}
+
+/* stylizacja listy rozwijanej w div .nav */
+.ol{
+    margin: 10px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a{ /* stylizacja łączy a tylko w liście ol */
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+ol > li{ /* stylizacja dziecka li którego rodzicem jest ol */
+    float: left;
+    width: 200px;
+    height: 40px;
+    border-right: 1px dashed white;
+    list-style-type: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+ol > li:first-child{ /* stylizacja 1dziecka w liście ol*/
+    border-left: 1px dashed white; 
+}
+
+ol > li:hover{ /* stylizacja koloru tekstu ni tu nam nie da*/
+    background-color: #c49b3b; 
+}
+
+ol > li:hover > a{
+    color: white; /* chyba niepotrzebuję */
+}
+
+strong a{ /* stylizacja łączy a tylko w strong = contact */
+    color: white;
+    text-decoration: none;
+}
+
